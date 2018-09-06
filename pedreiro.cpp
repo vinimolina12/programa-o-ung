@@ -10,31 +10,31 @@ int main(){
 	
 	*/
 	//Variáveis
-	int blocos(9), altParede(9), larParede(9), altBloco(9), larBloco(9);
+	float blocos(9), altParede(9), larParede(9), altBloco(9), larBloco(9);
 	
 	//VALOR DA ALTURA DA PAREDE
 	printf("Insira o valor da altura da parede \n");
-	scanf("%d", &altParede);
+	scanf("%f", &altParede);
 	
 	//VALOR DA LARGURA DA PAREDE
 	printf ("Insira o valor da largura da parede \n");
-	scanf("%d", &larParede);
+	scanf("%f", &larParede);
 	
 	
 	//VALOR DA ALTURA DO BLOCO
 	printf("Insira o valor da altura do bloco \n");
-	scanf("%d", &altBloco);
-	/*
+	scanf("%f", &altBloco);
+	
 	//VALOR DA LARGURA DO BLOCO
 	printf("Insira o valor da largura do bloco \n");
-	scanf("%d", &larBloco);
+	scanf("%f", &larBloco);
 	
 	
 	//Operação
-	blocos = (altParede/altBloco) * (larParede/larBloco);
+	blocos = (altParede / altBloco) * (larParede / larBloco);
 	
 	
-	printf("A quantidade de blocos será: %d", blocos);
+	printf("A quantidade de blocos será: %f", blocos);
 	
 	
 	
